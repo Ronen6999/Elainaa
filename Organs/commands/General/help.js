@@ -24,7 +24,7 @@ module.exports = {
 				{buttonId: `${prefix}help`, buttonText: {displayText: `help`}, type: 1},]
             let buth={
                 text:`*ℹ️Command Info*\n\n${data.join("\n")}`,
-                footer:"*©Eternity-Team*",
+                footer:"*©RonenBots.inc*",
                 buttons:buttonss,
                 headerType:1
             }    
@@ -57,7 +57,7 @@ let cm=commands.keys()
         } else {
         var emo=["📖","🍁","🍀","🌊","🎵","🔞","🎟","♨️","🉐",]
         } 
-        let txt = `*Kon'nichiwa (｡♡‿♡｡)* ${pushName} Watashiwa *Nezuko*.
+        let txt = `*Kon'nichiwa (｡♡‿♡｡)* ${pushName} Watashiwa *Elaina*.
                        
 🧧 *Prefix :* [ ${prefix} ]
                        
@@ -77,7 +77,7 @@ let cm=commands.keys()
     let hbutto = {
         image: {url: eternitylogo.image},
         caption: txt,
-        footer: '©Eternity-Team',
+        footer: '©RonenBots.inc',
         buttons: Button,
         headerType: 4
     }
